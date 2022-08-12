@@ -12,33 +12,6 @@
       "AmplifyAppId": "d27ajtnmkqkkxs"
     }
   },
-  "api": {
-    "20220811sveltessr": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 365,
-              "apiKeyExpirationDate": "2023-08-11T19:17:00.199Z",
-              "description": "default"
-            }
-          },
-          "additionalAuthenticationProviders": []
-        },
-        "GraphQLAPIIdOutput": "xic7dfaqxbbzxe5i6tpuyopfte",
-        "GraphQLAPIEndpointOutput": "https://wrauswnq3zhv3b2ga6wcakyqry.appsync-api.us-east-1.amazonaws.com/graphql",
-        "GraphQLAPIKeyOutput": "da2-wjroayeub5b5lmvprwity2gaau"
-      },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-20220811sveltessr-dev-141457-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-        "logicalId": "api20220811sveltessr"
-      },
-      "lastPushTimeStamp": "2022-08-11T19:21:20.471Z",
-      "lastPushDirHash": "x3EapvSoyY4SWUH+cHUXQkz6ANg="
-    }
-  }
+  "api": {},
+  "auth": {}
 }

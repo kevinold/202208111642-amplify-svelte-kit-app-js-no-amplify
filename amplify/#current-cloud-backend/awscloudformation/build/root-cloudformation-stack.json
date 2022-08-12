@@ -151,20 +151,6 @@
           "Ref": "UnauthRoleName"
         }
       }
-    },
-    "api20220811sveltessr": {
-      "Type": "AWS::CloudFormation::Stack",
-      "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-20220811sveltessr-dev-141457-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-        "Parameters": {
-          "AppSyncApiName": "20220811sveltessr",
-          "DynamoDBBillingMode": "PAY_PER_REQUEST",
-          "DynamoDBEnableServerSideEncryption": false,
-          "S3DeploymentBucket": "amplify-20220811sveltessr-dev-141457-deployment",
-          "S3DeploymentRootKey": "amplify-appsync-files/68364bf16624c3a6f83aa4c2bd6f69cc7e1ba34c",
-          "env": "dev"
-        }
-      }
     }
   }
 }
